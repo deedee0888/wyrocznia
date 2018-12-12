@@ -1,7 +1,7 @@
   
    
    function rose(){
-
+    
     var title = document.createElement('h2');
     var name = document.createTextNode('Róża');
     title.appendChild(name);
@@ -11,6 +11,10 @@
     content.appendChild(fotruneContent);
 
     var element = document.getElementById('fortune');
+    document.getElementById('fortune').style.width = "400px";
+    document.getElementById('fortune').style.height = "300px";
+    document.getElementById('fortune').style.backgroundImage = "url(assets/clipart41353.png)";
+    
 
     element.innerHTML = '';
 
@@ -30,6 +34,9 @@
     content.appendChild(fotruneContent);
 
     var element = document.getElementById('fortune');
+    document.getElementById('fortune').style.width = "400px";
+    document.getElementById('fortune').style.height = "300px";
+    document.getElementById('fortune').style.backgroundImage = "url(assets/clipart41353.png)";
     element.innerHTML = '';
 
     element.appendChild(title);
@@ -46,6 +53,9 @@
     content.appendChild(fotruneContent);
 
     var element = document.getElementById('fortune');
+    document.getElementById('fortune').style.width = "400px";
+    document.getElementById('fortune').style.height = "300px";
+    document.getElementById('fortune').style.backgroundImage = "url(assets/clipart41353.png)";
     element.innerHTML = '';
     console.log(element);
 
@@ -63,6 +73,9 @@
     content.appendChild(fotruneContent);
 
     var element = document.getElementById('fortune');
+    document.getElementById('fortune').style.width = "400px";
+    document.getElementById('fortune').style.height = "300px";
+    document.getElementById('fortune').style.backgroundImage = "url(assets/clipart41353.png)";
     element.innerHTML = '';
 
     element.appendChild(title);

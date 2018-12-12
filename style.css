@@ -117,7 +117,18 @@ p {
     padding: 30px;
 }
 
-main {
+.container {
+        display: flex;
+        justify-content: center;
+}
+
+#fortune {
+    
+    background-repeat: no-repeat;
+    background-size: 100%;
+    align-content: center;
+    margin: 30px;
+    padding: 20px;
     
 }
 
